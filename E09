@@ -1,1 +1,23 @@
+#FEITO COM WHILE
+#Lista6_E09
+i = 1
+s = 0
+while i <= 10:
+    num = int(input(f"Insira um número {i}: "))
+    s = s + num
+    i = i + 1
+media = s / 10
+print(f"A soma é: {s}")
+print(f"A média é: {media}")
 
+--------------------------------------------------------------------------------------------------------------------------------
+
+#FEITO COM FOR
+#Lista6_E09
+s = 0
+for i in range(1, 11, 1):
+    num = int(input(f"Insira um número {i}: "))
+    s = s + num
+media = s / 10
+print(f"A soma é: {s}")
+print(f"A média é: {media}")
