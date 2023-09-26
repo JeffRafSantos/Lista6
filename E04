@@ -1,1 +1,10 @@
+#Lista06_E02
+#Usando While
+n = 0
+while n < 100:
+    n = n + 4
+    print(n)
 
+#Usando for
+for i in range(4, 101, 4):
+    print(i)
